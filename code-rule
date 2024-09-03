@@ -6,11 +6,12 @@ Nguyên tắc viết code:
 +Mỗi đoạn code chỉ thực hiện 1 chức năng nhất quán
 -KISS (Keep it simple stupid)
 + Viết code dễ hiểu, đơn giản
+-đặt tên biến,hàm dễ đọc ,dễ hiểu. Vd : func_add_sub,...
 
 Nguyên tắc comment
 -không comment tùy tiện, tránh trường hợp code ghi nhận thay đổi quá nhiều
 -với 1 đoạn code dài có nhiều step, cần comment theo step 1,2,3,4
--khi tạo class, function,method cần comment ngắn gọn mô tả tác dụng
+-khi tạo class, function,method cần comment ngắn gọn mô tả tác dụng, và mô tả loại đầu ra ->
   
 Nguyên tắc quản lý file code
 -sử dụng Git & github
@@ -18,3 +19,13 @@ Nguyên tắc quản lý file code
 -Chia nhỏ thành các module khác nhau
 -Các tính năng liên quan nên xử lý trong 1 file .Hạn chế số file tạo ra
 
+Nguyên tắc sử dụng decorator
+-decorator là wraper bao bọc hàm chính (không thay đổi source code), thay đổi hành vi của hàm trước và sau thực thi
+-hàm chính nên tập chung vào chức năng chính. Các chức năng cơ bản lặp lại như cache,logging..nên sử dụng decorator
+
+Nguyên tắc truyền dữ liệu
+-Dữ liệu truyền đi phải thể hiện được ở dưới các loại cở bản như number,string,byte
+
+Nguyên tắc quản lý theard/process
+-Nếu task không phải vòng lặp chạy liên tục  , nên sử dụng pool excudator để quản lý
+-Nếu task là vòng lặp chạy liên tục , phải tự quản lý riêng biệt.Đặc biệt với process cần quản lý list pid đã tạo để có thể đóng.
