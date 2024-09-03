@@ -1,0 +1,25 @@
+
+Phân loại các task SD
+-Đổi mặt
+1.dùng reactor
+
+-Đổi mặt+ tóc+phụ kiện
+1.Gen inpaint dùng Ipadapter ID +reactor
+2.Dùng reactor
+
+-Thay đổi pose
+Cách1
+1.Gen text2image dùng controlnet pose
+2.Swap cloth 
+3. Ipadapter ID +Reactor
+
+Cách2
+1.Gen text2image dùng controlnet pose + adapter cloth(chỉ ok với upper)
+2. Ipadapter ID +Reactor
+
+Cách3
+1.Gen text2image dùng controlnet pose + lora cloth
+2. Ipadapter ID +Reactor
+
+Cách4
+1.Dùng mimixmotion (DEV)
