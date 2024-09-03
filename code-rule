@@ -1,0 +1,20 @@
+
+Nguyên tắc viết code:
+ 
+-SOLID (nguyên tắc nhất quán)
++Code nên mở rộng thay vì sửa đổi
++Mỗi đoạn code chỉ thực hiện 1 chức năng nhất quán
+-KISS (Keep it simple stupid)
++ Viết code dễ hiểu, đơn giản
+
+Nguyên tắc comment
+-không comment tùy tiện, tránh trường hợp code ghi nhận thay đổi quá nhiều
+-với 1 đoạn code dài có nhiều step, cần comment theo step 1,2,3,4
+-khi tạo class, function,method cần comment ngắn gọn mô tả tác dụng
+  
+Nguyên tắc quản lý file code
+-sử dụng Git & github
+-1 File code chỉ được viết và quản lý bỏi một người
+-Chia nhỏ thành các module khác nhau
+-Các tính năng liên quan nên xử lý trong 1 file .Hạn chế số file tạo ra
+
