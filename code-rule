@@ -29,3 +29,7 @@ Nguyên tắc truyền dữ liệu
 Nguyên tắc quản lý theard/process
 -Nếu task không phải vòng lặp chạy liên tục  , nên sử dụng pool excudator để quản lý
 -Nếu task là vòng lặp chạy liên tục , phải tự quản lý riêng biệt.Đặc biệt với process cần quản lý list pid đã tạo để có thể đóng.
+
+Nguyên tắc test
+-Unit test
+https://viblo.asia/p/tim-hieu-ve-stub-mock-va-fake-trong-unit-test-mPjxMe1bM4YL
